@@ -1,0 +1,140 @@
+<div id="tabs-5">
+    <div class="helpbox postbox" style="padding: 6px 10px; text-align: right;">
+        <a href="#" class="squarebutton lilsqbutton" title="###LABEL_66###" id="add_event">###LABEL_66###</a>
+    </div>
+    <div class="event-accordion">
+        <?php
+        $events = self::getEvents();
+        if (!is_array($events)){
+            $events = array();
+        }
+        foreach($events as $id => $event){
+            if ($event['eventType'] == 'status_change'){
+                $title = 'Status Change for ';
+            } else if ($event['eventType'] == 'content_change'){
+                $title = 'Content Change for ';
+            } else { 
+                $title = 'Unknown Event for ';
+            }
+            if (isset($wp_post_types[$event['postType']])){
+                $title .= $wp_post_types[$event['postType']]->labels->name;
+            } else {
+                $title .= 'Unknown Post Type';
+            }
+        ?>
+        <div id="<?php echo $id; ?>">
+            <h4><a href="#"><?php echo $title; ?></a></h4>
+            <div class="event-description">
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][eventType]" value="<?php echo $event['eventType']; ?>" />
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][statusChange]" value="<?php echo $event['statusChange']; ?>" />
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][postType]" value="<?php echo $event['postType']; ?>" />
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][eventAction]" value="<?php echo $event['eventAction']; ?>" />
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][eventEmail]" value="<?php echo $event['eventEmail']; ?>" />
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][statusChangeTo]" value="<?php echo $event['statusChangeTo']; ?>" />
+                <input type="hidden" name="wpaccess[event][<?php echo $id; ?>][callback]" value="<?php echo $event['callback']; ?>" />
+                <?php
+                    echo '<p><b>Action: </b>';
+                    if ($event['eventAction'] == 'notify'){
+                        echo 'Email Notification to ' . $event['eventEmail'];
+                    } elseif ($event['eventAction'] == 'change_satus') { 
+                        echo 'Change Status to ';
+                        if (isset($wp_post_statuses[$event['statusChangeTo']])){
+                            echo $wp_post_statuses[$event['statusChangeTo']]->label;
+                        }
+                    } elseif ($event['eventAction'] == 'custom'){
+                        echo 'Custom callback function ' . $event['callback'];
+                    }
+                ?>
+                <p class="event-actions">
+                    <a href="#" event="<?php echo $id; ?>" class="remove-event">remove</a>
+                </p>
+            </div>
+        </div>
+        <?php } ?>
+    </div>
+    <div id="dialog-add-event" class="aam-dialog" title="###LABEL_67###">
+        <table class="event-settings">
+            <tbody>
+                <tr>
+                    <th width="35%">Event Type:</th>
+                    <td>
+                        <select id="event_type_select">
+                            <option value="">Select Event Type</option>
+                            <option value="status_change">Post Status Change</option>
+                            <option value="content_change">Post Content Change</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="status_changed" style="display:none;">
+                    <th>Status Change:</th>
+                    <td>
+                        <select id="event_status_change">
+                            <option value="">Select Status</option>
+                            <?php
+                            foreach ($wp_post_statuses as $status => $config) {
+                                if ($config->show_in_admin_status_list) {
+                                    echo '<option value="' . $status . '">';
+                                    echo $config->label . '</option>';
+                                }
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Post Type:</th>
+                    <td>
+                        <select id="event_post_type">
+                            <option value="">Select Post Type</option>
+                            <?php
+                            foreach ($wp_post_types as $post => $config) {
+                                echo '<option value="' . $post . '">';
+                                echo $config->labels->name . '</option>';
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Action:</th>
+                    <td>
+                        <select id="event_action">
+                            <option value="">Select Action</option>
+                            <option value="notify">Email Notification</option>
+                            <option value="change_satus">Change Status</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="event_email" style="display:none;">
+                    <th>Email Address:</th>
+                    <td>
+                        <input type="text" id="event_email_address" />
+                    </td>
+                </tr>
+                <tr id="event_status_to" style="display:none;">
+                    <th>Status Change To:</th>
+                    <td>
+                        <select id="event_change_status_to">
+                            <option value="">Select Status</option>
+                            <?php
+                            foreach ($wp_post_statuses as $status => $config) {
+                                if ($config->show_in_admin_status_list) {
+                                    echo '<option value="' . $status . '">';
+                                    echo $config->label . '</option>';
+                                }
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="event_callback" style="display:none;">
+                    <th>Callback Function:</th>
+                    <td>
+                        <input type="text" id="event_callback_func" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

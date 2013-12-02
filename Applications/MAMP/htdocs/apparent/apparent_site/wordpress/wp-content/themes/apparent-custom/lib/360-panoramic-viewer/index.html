@@ -1,0 +1,251 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Panorama360 Plugin Documentation</title>
+	<meta name="author" content="Liviu Holhos" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="assets-docs/bronto.css" media="all" />
+	<link rel="stylesheet" href="assets-docs/site.css" media="all" />
+	<!--[if lt IE 9]>
+		<link rel="stylesheet" href="assets-docs/ie.css" type="text/css" media="screen" />
+		<script src="assets-docs/js/ie.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div id="wrapper-top" class="container">
+		<header class="row clearfix">
+			<hgroup class="grid_6">
+				<h1>Panorama<strong>360</strong></h1>
+				<span>jQuery plugin for displaying 360&deg; panoramic images</span>
+			</hgroup>
+			<div id="version" class="grid_6 last">
+				<div class="wrapper">
+					<span>v1.1</span>
+				</div>
+			</div>
+		</header>
+	</div>
+
+	<div id="wrapper-content" class="container">
+		<article id="intro" class="row clearfix">
+			<div class="grid_5">
+				<h2>Thank you for your purchase</h2>
+				<p>If you have any questions that are beyond the scope of this help file, please feel free to email via my user page <a href="http://codecanyon.net/user/liviu_cerchez" class="button small">contact</a> form. Thanks so much!</p>
+			</div>
+			<div class="grid_7 last">
+				<h2>Examples</h2>
+				<p>
+					<a href="simple.html" class="button">Simple</a>
+					<a href="fullpage.html" class="button">Full-page</a>
+					<a href="fancybox-integration.html" class="button">Fancybox integration</a>
+					<a href="caroufredsel-integration.html" class="button">carouFredSel Integration</a>
+				</p>
+			</div>
+		</article>
+		<article id="install" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>Installation</h2>
+				<ol>
+					<li>
+						<p>Copy the <strong>css</strong>, <strong>images</strong>, <strong>js</strong> folders to your project and include the jQuery library + the plugin files inside the <strong>&lt;head&gt;</strong> tag of your page.</p>
+<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.mousewheel.min.js&quot;&gt;&lt;/script&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/panorama360.css&quot; media="all" /&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery.panorama360.js&quot;&gt;&lt;/script&gt;
+&lt;script&gt;
+  $(function(){
+    $(&#39;.panorama-view&#39;).panorama360(); <em>// initialize plugin</em>
+  });
+&lt;/script&gt;
+</pre>
+					</li>
+					<li>
+						<p>Add the following markup inside the <strong>&lt;body&gt;</strong> tag of your page.</p>
+<pre>&lt;div class="panorama"&gt;
+  &lt;div class="panorama-view"&gt;
+    &lt;div class="panorama-container"&gt;
+      &lt;img src="panorama.jpg" data-width="4996" data-height="1300" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+						<p><em>You must explicitly specify the original image size with data-width and data-height as attributes. The standard width and height image attributes are ignored and should NOT be used.</em></p>
+					</li>
+				</ol>
+				<h3>Additional Note</h3>
+				<p>It's recommanded to use a reset style before including the <em>panorama360.css</em> file. If you don't use this method (or your CSS framework does not include one) use something like this from the <em>demo.css</em> file:</p>
+				<pre>html,body,div,span,h1,h2,h3,h4,h5,h6,p,img { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; }
+html { overflow:auto; }
+body { line-height:1;}
+a { margin: 0; padding: 0; font-size: 100%;vertical-align:baseline;background:transparent; }
+html,body { width:100%; height:100%; }
+body { background-color: #999; }</pre>
+				<p>Please refer to <a href="simple.html" class="button small">simple.html</a> and <a href="fullpage.html" class="button small">fullpage.html</a> examples for more details.</p>
+			</div>
+		</article>
+		<article id="config" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>Configuration</h2>
+				<p>Panorama360 can be customized easily using the options below.</p>
+				<table class="large">
+					<thead>
+						<tr>
+							<th>Option</th>
+							<th>Default</th>
+							<th>Description</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>bind_resize</strong></td>
+							<td><em>true</em></td>
+							<td>Determine if window resize affects the viewport, should be true for responsive designs.</td>
+						</tr>
+						<tr>
+							<td><strong>use_preloader</strong></td>
+							<td><em>true</em></td>
+							<td>Show a preloader for the panorama image while it loads.</td>
+						</tr>
+						<tr>
+							<td><strong>is360</strong></td>
+							<td><em>true</em></td>
+							<td>Determine if panorama is rotated 360 degree, otherwise 180 degree is used.</td>
+						</tr>
+						<tr>
+							<td><strong>sliding_controls</strong></td>
+							<td><em>false</em></td>
+							<td>Determine if UI controls for sliding left and right are created.</td>
+						</tr>
+						<tr>
+							<td><strong>sliding_direction</strong></td>
+							<td><em>0</em></td>
+							<td>Determines the automatic sliding direction: <strong>0</strong> - no automatic slide effect, <strong>1</strong> - right side effect, <strong>-1</strong> - left side effect.</td>
+						</tr>
+						<tr>
+							<td><strong>sliding_interval</strong></td>
+							<td><em>8</em></td>
+							<td>Determines the interval in miliseconds of the sliding timer (the lower it is the faster it slides).</td>
+						</tr>
+						<tr>
+							<td><strong>start_position</strong></td>
+							<td><em>0</em></td>
+							<td>Initial position for the view that must be between 0 and the images's width (in pixels).</td>
+						</tr>
+						<tr>
+							<td><strong>mouse_wheel_multiplier</strong></td>
+							<td><em>0</em></td>
+							<td>Set the speed of the mousewheel rotation (must include jquery.mousewheel.min.js script)</td>
+						</tr>
+						<tr>
+							<td><strong>image_width</strong></td>
+							<td><em>-</em></td>
+							<td>Specify the panorama image width (original as it is in the file) - if not set in the markup via the data-width attribute.</td>
+						</tr>
+						<tr>
+							<td><strong>image_height</strong></td>
+							<td><em>-</em></td>
+							<td>Specify the panorama image height (original as it is in the file) - if not set in the markup via the data-height attribute.</td>
+						</tr>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="3">Make sure you check out the examples in the demos folder.</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+		</article>
+		<article id="hotspots" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>Adding hotspots</h2>
+				<p>You can add hotspots to the image by linking a <strong>&lt;map&gt;</strong> element to the image (no plugin configuration required).</p>
+<pre>&lt;div class="panorama"&gt;
+  &lt;div class="panorama-view"&gt;
+    &lt;div class="panorama-container"&gt;
+      &lt;img src="panorama.jpg" usemap="hotspots" data-width="4996" data-height="1300" /&gt;
+      &lt;map id="hotspots" name="hotspots"&gt;
+        &lt;area shape="rect" class="hotspot" coords="240,530,520,580" href="other-panorama.html" alt="This is a hotspot" /&gt;
+      &lt;/map&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</pre>
+			</div>
+		</article>
+		<article id="fancybox" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>Fancybox Integration</h2>
+				<p>Adding a third party plugin for viewing hotspot details might improve the panorama experience. Here is an example of adding <a href="http://fancyapps.com/fancybox/">fancybox</a> to display images for hotspots:</p>
+<pre>$('.panorama .hotspot').fancybox({
+    maxWidth   : 800,
+    maxHeight  : 600,
+    padding    : 0,
+    fitToView  : true,
+    width      : '90%',
+    height     : '90%',
+    autoSize   : false,
+    closeClick : false
+});</pre>
+				<p>Please consult the original documentation of the fancybox plugin for more options and details. You can test things out by opening the <a href="fancybox-integration.html" class="button small">fancybox-integration.html</a> example in the <strong>demos</strong> folder.</p>
+			</div>
+		</article>
+
+		<article id="caroufredsel" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>carouFredSel Integration</h2>
+				<p>If you need to select from multiple panoramas on a single page you might use a third party plugin to display a carousel with thumbnails and manage the swap when clicking for full view. Below is such an integration with the <a href="http://caroufredsel.frebsite.nl/">carouFredSel</a> plugin.</p>
+<pre>$(function(){
+
+  $('.panorama .panorama-view').panorama360();
+     $('.panorama .slides .slide a').click(function(ev) {
+       ev.preventDefault();
+       if ($(this).hasClass('active')) return;
+       $('.panorama .preloader').show();
+       $('.slides .slide a').removeClass('active');
+       $(this).addClass('active');
+       $('.panorama .panorama-view').hide();
+       $('.panorama .panorama-container').html($(this).next().html());
+       $('.panorama .panorama-view').panorama360();
+     });
+
+  $('.panorama .slides-container').carouFredSel({
+    direction: 'up',
+    circular: false,
+    infinite: false,
+    height: '100%',
+    padding: [100,0,100,0],
+    items: { visible: 'variable', width: 100, height: 100, filter: '.slide' },
+    scroll: { fx: 'directscroll', mousewheel: true },
+    auto: false,
+    prev: '.slides .up',
+    next: '.slides .down'
+  });
+
+});</pre>
+				<p>Please consult the original documentation of the carouFredSel plugin for more options and details. You can test things out by opening the <a href="caroufredsel-integration.html" class="button small">caroufredsel-integration.html</a> example in the <strong>demos</strong> folder.</p>
+			</div>
+		</article>
+
+		<article id="notes" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>Notes</h2>
+				<p>If your browser doesn't have JavaScript enabled, the plugin fallbacks to show only a part of the panoramic image, which is ok. The plugin uses extensive image movement and if you notice flickering (especially in full-page mode) you can resize the input image to be smaller and play with the plugin options. The plugin manipulates 360 panoramic images and does not glue multiples slides into a big image (please see some examples <a href="http://commons.wikimedia.org/wiki/Special:WhatLinksHere/Template:Pano360">here</a>).</p> 
+			</div>
+		</article>
+
+		<article id="thankyou" class="row clearfix">
+			<div class="grid_12 last">
+				<h2>Final thought</h2>
+				<p>Once again, thank you so much for purchasing this plugin. As I said at the beginning, I'd be glad to help you if you have any questions relating to this plugin. No guarantees, but I'll do my best to assist.</p>
+			</div>
+		</article>
+
+		<footer class="row clearfix">
+			<div class="grid_12 last">
+				<a href="http://liviuholhos.com">Liviu Holhoş</a> is a web developer and graphics designer from Cluj-Napoca.
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

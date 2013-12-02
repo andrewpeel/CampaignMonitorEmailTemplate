@@ -1,0 +1,1939 @@
+[May 30, 2013 11:04:27 10-error] [] A loopback seemed to occur but the value `
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>401 Unauthorized</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        body {
+        	font-family: Verdana, Arial, Helvetica, sans-serif;
+        	font-size: 12px;
+        	background-color:#367E8E;
+        	scrollbar-base-color: #005B70;
+        	scrollbar-arrow-color: #F3960B;
+        	scrollbar-DarkShadow-Color: #000000;
+        	color: #FFFFFF;
+			margin:0;
+        }
+        a { color:#021f25; text-decoration:none}
+        h1 {
+        	font-size: 18px;
+        	color: #FB9802;
+        	padding-bottom: 10px;
+        	background-image: url(sys_cpanel/images/bottombody.jpg);
+        	background-repeat: repeat-x;
+        	padding:5px 0 10px 15px;
+			margin:0;
+        }
+        #body-content p {
+        	padding-left: 25px;
+        	padding-right: 25px;
+        	line-height: 18px;
+        	padding-top: 5px;
+        	padding-bottom: 5px;
+        }
+        h2 {
+        	font-size: 14px;
+        	font-weight: bold;
+        	color: #FF9900;
+        	padding-left: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="body-content">  
+<!-- start content-->
+
+<!-- 
+ instead of REQUEST_URI, we could show absolute URL via:
+ http://HTTP_HOST/REQUEST_URI
+    but what if its https:// or other protocol?
+    
+    SERVER_PORT_SECURE doesn't seem to be used
+    SERVER_PORT logic would break if they use alternate ports
+-->
+
+<h1>401 Unauthorized</h1>
+<p>The requested page requires authentication:</p>
+  <blockquote>
+    202.130.47.159/~apparent/wordpress/wp-admin/admin-ajax.php (port 80)
+  </blockquote> 
+<p>
+    Please forward this error screen to 202.130.47.159's 
+    <a href="mailto:hostmaster@digitalpacific.com.au?subject=Error message [401] 401 Unauthorized for 202.130.47.159/~apparent/wordpress/wp-admin/admin-ajax.php port 80 on Thursday, 30-May-2013 11:04:27 EST">
+    WebMaster</a>.
+</p>
+<hr />
+<address>Apache/2.2.23 (Unix) mod_ssl/2.2.23 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 Server at 202.130.47.159 Port 80</address>
+
+
+<!-- end content -->
+    </div>
+  </body>
+</html>
+` was not correct.
+[May 30, 2013 11:04:43 10-error] [] A loopback seemed to occur but the value `
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <title>401 Unauthorized</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <style type="text/css">
+        body {
+        	font-family: Verdana, Arial, Helvetica, sans-serif;
+        	font-size: 12px;
+        	background-color:#367E8E;
+        	scrollbar-base-color: #005B70;
+        	scrollbar-arrow-color: #F3960B;
+        	scrollbar-DarkShadow-Color: #000000;
+        	color: #FFFFFF;
+			margin:0;
+        }
+        a { color:#021f25; text-decoration:none}
+        h1 {
+        	font-size: 18px;
+        	color: #FB9802;
+        	padding-bottom: 10px;
+        	background-image: url(sys_cpanel/images/bottombody.jpg);
+        	background-repeat: repeat-x;
+        	padding:5px 0 10px 15px;
+			margin:0;
+        }
+        #body-content p {
+        	padding-left: 25px;
+        	padding-right: 25px;
+        	line-height: 18px;
+        	padding-top: 5px;
+        	padding-bottom: 5px;
+        }
+        h2 {
+        	font-size: 14px;
+        	font-weight: bold;
+        	color: #FF9900;
+        	padding-left: 15px;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="body-content">  
+<!-- start content-->
+
+<!-- 
+ instead of REQUEST_URI, we could show absolute URL via:
+ http://HTTP_HOST/REQUEST_URI
+    but what if its https:// or other protocol?
+    
+    SERVER_PORT_SECURE doesn't seem to be used
+    SERVER_PORT logic would break if they use alternate ports
+-->
+
+<h1>401 Unauthorized</h1>
+<p>The requested page requires authentication:</p>
+  <blockquote>
+    202.130.47.159/~apparent/wordpress/wp-admin/admin-ajax.php (port 80)
+  </blockquote> 
+<p>
+    Please forward this error screen to 202.130.47.159's 
+    <a href="mailto:hostmaster@digitalpacific.com.au?subject=Error message [401] 401 Unauthorized for 202.130.47.159/~apparent/wordpress/wp-admin/admin-ajax.php port 80 on Thursday, 30-May-2013 11:04:43 EST">
+    WebMaster</a>.
+</p>
+<hr />
+<address>Apache/2.2.23 (Unix) mod_ssl/2.2.23 OpenSSL/0.9.8e-fips-rhel5 mod_bwlimited/1.4 Server at 202.130.47.159 Port 80</address>
+
+
+<!-- end content -->
+    </div>
+  </body>
+</html>
+` was not correct.
+[Jun 18, 2013 14:52:57 10-error] [iw8oubs0q7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/iw8oubs0q7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:53:00 10-error] [ux8e4h7mg4] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/ux8e4h7mg4.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:53:05 10-error] [try9si9mrs] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/try9si9mrs.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:53:39 10-error] [9i0e2qdv8s] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/9i0e2qdv8s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:53:46 10-error] [] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:54:14 10-error] [xutz42zuv2] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/xutz42zuv2.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:54:16 10-error] [bn9oa54jhc] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/bn9oa54jhc.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:54:18 10-error] [pm3o0v14v0] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/pm3o0v14v0.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:55:12 10-error] [k5y834p2vo] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/k5y834p2vo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:55:14 10-error] [1vs7qrsf7e] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/1vs7qrsf7e.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:55:17 10-error] [tn2zhgonug] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/tn2zhgonug.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:57:15 10-error] [hn56hnz8je] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/hn56hnz8je.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:57:17 10-error] [5gufrnkm43] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5gufrnkm43.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 14:57:20 10-error] [qo43pgsd3q] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/qo43pgsd3q.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:06:31 10-error] [the71gcaq7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/the71gcaq7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:06:37 10-error] [5tdjkgwthf] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5tdjkgwthf.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:10:32 10-error] [yzomt80d5u] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/yzomt80d5u.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:10:35 10-error] [7wh4fae8sm] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/7wh4fae8sm.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:10:38 10-error] [5qaxnbi8t7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:10:41 10-error] [t02m93yn9j] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/t02m93yn9j.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:10:44 10-error] [iw8oubs0q7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/iw8oubs0q7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:04 10-error] [ux8e4h7mg4] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/ux8e4h7mg4.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:06 10-error] [try9si9mrs] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/try9si9mrs.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:14 10-error] [9i0e2qdv8s] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/9i0e2qdv8s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:30 10-error] [xutz42zuv2] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/xutz42zuv2.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:32 10-error] [bn9oa54jhc] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/bn9oa54jhc.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:34 10-error] [pm3o0v14v0] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/pm3o0v14v0.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:35 10-error] [k5y834p2vo] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/k5y834p2vo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:37 10-error] [1vs7qrsf7e] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/1vs7qrsf7e.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:41 10-error] [tn2zhgonug] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/tn2zhgonug.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:43 10-error] [hn56hnz8je] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/hn56hnz8je.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:54 10-error] [5gufrnkm43] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5gufrnkm43.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:11:56 10-error] [qo43pgsd3q] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/qo43pgsd3q.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:12:22 10-error] [the71gcaq7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/the71gcaq7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:12:24 10-error] [5tdjkgwthf] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5tdjkgwthf.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:13:07 10-error] [yzomt80d5u] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/yzomt80d5u.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:13:17 10-error] [7wh4fae8sm] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/7wh4fae8sm.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:13:26 10-error] [5qaxnbi8t7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:13:42 10-error] [t02m93yn9j] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/t02m93yn9j.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:13:44 10-error] [iw8oubs0q7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/iw8oubs0q7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:13:50 10-error] [ux8e4h7mg4] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/ux8e4h7mg4.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:14:49 10-error] [try9si9mrs] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/try9si9mrs.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:15:54 10-error] [9i0e2qdv8s] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/9i0e2qdv8s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:15:56 10-error] [xutz42zuv2] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/xutz42zuv2.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:15:57 10-error] [bn9oa54jhc] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/bn9oa54jhc.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:16:02 10-error] [pm3o0v14v0] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/pm3o0v14v0.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:16:05 10-error] [k5y834p2vo] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/k5y834p2vo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:16:20 10-error] [1vs7qrsf7e] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/1vs7qrsf7e.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:16:23 10-error] [tn2zhgonug] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/tn2zhgonug.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:16:29 10-error] [hn56hnz8je] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/hn56hnz8je.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:16:31 10-error] [5gufrnkm43] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5gufrnkm43.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:25 10-error] [qo43pgsd3q] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/qo43pgsd3q.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:30 10-error] [the71gcaq7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/the71gcaq7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:32 10-error] [5tdjkgwthf] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5tdjkgwthf.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:35 10-error] [yzomt80d5u] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/yzomt80d5u.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:40 10-error] [7wh4fae8sm] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/7wh4fae8sm.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:41 10-error] [5qaxnbi8t7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:49 10-error] [t02m93yn9j] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/t02m93yn9j.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:51 10-error] [iw8oubs0q7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/iw8oubs0q7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:55 10-error] [ux8e4h7mg4] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/ux8e4h7mg4.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:17:57 10-error] [try9si9mrs] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/try9si9mrs.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:18:06 10-error] [9i0e2qdv8s] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/9i0e2qdv8s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:18:07 10-error] [xutz42zuv2] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/xutz42zuv2.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:18:11 10-error] [bn9oa54jhc] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/bn9oa54jhc.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:18:14 10-error] [pm3o0v14v0] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/pm3o0v14v0.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:18:54 10-error] [k5y834p2vo] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/k5y834p2vo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:18:57 10-error] [1vs7qrsf7e] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/1vs7qrsf7e.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:00 10-error] [tn2zhgonug] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/tn2zhgonug.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:03 10-error] [hn56hnz8je] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/hn56hnz8je.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:09 10-error] [5gufrnkm43] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5gufrnkm43.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:19 10-error] [qo43pgsd3q] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/qo43pgsd3q.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:21 10-error] [the71gcaq7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/the71gcaq7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:25 10-error] [5tdjkgwthf] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5tdjkgwthf.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:26 10-error] [yzomt80d5u] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/yzomt80d5u.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:27 10-error] [7wh4fae8sm] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/7wh4fae8sm.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:29 10-error] [5qaxnbi8t7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:31 10-error] [oghm5mhnse] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 18 Jun 13 05:20:31 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 27 minutes.
+`; recipient(s): ``.
+[Jun 18, 2013 15:20:46 10-error] [t02m93yn9j] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/t02m93yn9j.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:48 10-error] [iw8oubs0q7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/iw8oubs0q7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:52 10-error] [ux8e4h7mg4] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/ux8e4h7mg4.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:20:53 10-error] [try9si9mrs] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/try9si9mrs.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:21:01 10-error] [9i0e2qdv8s] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/9i0e2qdv8s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:21:05 10-error] [xutz42zuv2] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/xutz42zuv2.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:21:06 10-error] [bn9oa54jhc] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/bn9oa54jhc.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:21:27 10-error] [pm3o0v14v0] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/pm3o0v14v0.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:21:29 10-error] [k5y834p2vo] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/k5y834p2vo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:21:33 10-error] [1vs7qrsf7e] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/1vs7qrsf7e.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:24:23 10-error] [bstgub9nxm] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 18 Jun 13 05:24:23 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+[Jun 18, 2013 15:24:27 10-error] [tn2zhgonug] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/tn2zhgonug.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:24:29 10-error] [hn56hnz8je] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/hn56hnz8je.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:26:36 10-error] [5gufrnkm43] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5gufrnkm43.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:29:42 10-error] [qo43pgsd3q] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/qo43pgsd3q.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:29:44 10-error] [the71gcaq7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/the71gcaq7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:31:48 10-error] [5tdjkgwthf] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5tdjkgwthf.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:31:50 10-error] [yzomt80d5u] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/yzomt80d5u.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:32:32 10-error] [7wh4fae8sm] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/7wh4fae8sm.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:32:34 10-error] [5qaxnbi8t7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:31 10-error] [t02m93yn9j] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/t02m93yn9j.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [iw8oubs0q7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/iw8oubs0q7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [iw8oubs0q7] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [ux8e4h7mg4] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/ux8e4h7mg4.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [ux8e4h7mg4] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [try9si9mrs] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/try9si9mrs.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [try9si9mrs] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [9i0e2qdv8s] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/9i0e2qdv8s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [9i0e2qdv8s] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [xutz42zuv2] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/xutz42zuv2.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [xutz42zuv2] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [bn9oa54jhc] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/bn9oa54jhc.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [bn9oa54jhc] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [pm3o0v14v0] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/pm3o0v14v0.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [pm3o0v14v0] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [k5y834p2vo] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/k5y834p2vo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [k5y834p2vo] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:34 10-error] [1vs7qrsf7e] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/1vs7qrsf7e.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:34 10-error] [1vs7qrsf7e] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [tn2zhgonug] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/tn2zhgonug.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [tn2zhgonug] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [hn56hnz8je] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/hn56hnz8je.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [hn56hnz8je] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [5gufrnkm43] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5gufrnkm43.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [5gufrnkm43] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [qo43pgsd3q] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/qo43pgsd3q.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [qo43pgsd3q] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [the71gcaq7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/the71gcaq7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [the71gcaq7] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [5tdjkgwthf] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5tdjkgwthf.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [5tdjkgwthf] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [yzomt80d5u] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/yzomt80d5u.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [yzomt80d5u] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [7wh4fae8sm] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/7wh4fae8sm.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [7wh4fae8sm] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:33:43 10-error] [5qaxnbi8t7] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/5qaxnbi8t7.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:33:43 10-error] [5qaxnbi8t7] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 18, 2013 15:35:11 10-error] [t02m93yn9j] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/t02m93yn9j.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Jun 18, 2013 15:35:11 10-error] [t02m93yn9j] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Jun 19, 2013 08:51:08 10-error] [d391dzq9z7] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 18 Jun 13 22:51:08 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 19 minutes.
+`; recipient(s): ``.
+[Jun 19, 2013 10:36:57 10-error] [a19t8ix873] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 19 Jun 13 00:36:57 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jun 20, 2013 08:51:55 10-error] [bzezdj5yq1] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 19 Jun 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jun 21, 2013 08:51:55 10-error] [m0vmq8m9fr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 20 Jun 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jun 22, 2013 08:52:06 10-error] [vbqyfh5q9s] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 21 Jun 13 22:52:06 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jun 23, 2013 08:51:55 10-error] [d6f6axtw07] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 22 Jun 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jun 24, 2013 08:49:34 10-error] [83x37qv0j4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 23 Jun 13 22:49:34 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 18 minutes.
+`; recipient(s): ``.
+[Jun 25, 2013 08:46:55 10-error] [h7bh1o4s7f] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 24 Jun 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jun 26, 2013 08:51:54 10-error] [qhsy7myzj8] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 25 Jun 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jun 26, 2013 10:41:55 10-error] [nxsft81o6u] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 26 Jun 13 00:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 23 minutes.
+`; recipient(s): ``.
+[Jun 27, 2013 08:38:28 10-error] [yr05u1ta86] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 26 Jun 13 22:38:28 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+[Jun 28, 2013 08:51:54 10-error] [kqx65xk5ve] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 27 Jun 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jun 29, 2013 08:33:16 10-error] [s14amew0fn] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 28 Jun 13 22:33:16 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 1 minute.
+`; recipient(s): ``.
+[Jun 30, 2013 08:46:55 10-error] [wanz6uq2q8] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 29 Jun 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jul 1, 2013 08:45:35 10-error] [n6iqb16zhv] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 30 Jun 13 22:45:35 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+[Jul 2, 2013 08:42:28 10-error] [e7xc6wxuea] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 01 Jul 13 22:42:28 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Jul 3, 2013 08:40:03 10-error] [djfzkopqnr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 02 Jul 13 22:40:03 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 9 minutes.
+`; recipient(s): ``.
+[Jul 3, 2013 10:31:55 10-error] [nytk4t8c9z] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 03 Jul 13 00:31:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Jul 4, 2013 08:46:55 10-error] [qrfoxukmo7] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 03 Jul 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jul 5, 2013 08:51:54 10-error] [3rax1h02j4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 04 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 6, 2013 08:51:54 10-error] [pmrs7k4j8z] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 05 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 7, 2013 08:50:25 10-error] [zh97x12hq6] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 06 Jul 13 22:50:25 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 18 minutes.
+`; recipient(s): ``.
+[Jul 8, 2013 08:51:54 10-error] [ei91h2r4yg] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 07 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 9, 2013 08:51:54 10-error] [xujd823wb3] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 08 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 10, 2013 08:51:54 10-error] [6nikj9ohuo] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 09 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 10, 2013 10:36:55 10-error] [bq7iampxp4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 10 Jul 13 00:36:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jul 11, 2013 08:41:55 10-error] [4nrpn6aw0a] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 10 Jul 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Jul 12, 2013 08:41:55 10-error] [54zw5y0h7w] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 11 Jul 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Jul 13, 2013 08:36:54 10-error] [qwv6932ydk] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 12 Jul 13 22:36:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 6 minutes.
+`; recipient(s): ``.
+[Jul 14, 2013 08:41:55 10-error] [xfamr3o1ck] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 13 Jul 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Jul 15, 2013 08:44:43 10-error] [5fieag432c] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 14 Jul 13 22:44:43 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 13 minutes.
+`; recipient(s): ``.
+[Jul 16, 2013 08:42:32 10-error] [0gr8k5rc2s] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 15 Jul 13 22:42:32 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Jul 17, 2013 08:45:38 10-error] [6mnh3k1h5g] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 16 Jul 13 22:45:38 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+[Jul 17, 2013 10:36:54 10-error] [gpa41ygcu7] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 17 Jul 13 00:36:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jul 18, 2013 08:35:45 10-error] [hdk7n430mh] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 17 Jul 13 22:35:45 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 4 minutes.
+`; recipient(s): ``.
+[Jul 19, 2013 08:40:14 10-error] [k8awnipjp0] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 18 Jul 13 22:40:14 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+[Jul 20, 2013 08:51:54 10-error] [e2uhaedyg7] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 19 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 21, 2013 08:51:55 10-error] [135gz4nukz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 20 Jul 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 22, 2013 08:41:29 10-error] [79pyvc0e0y] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 21 Jul 13 22:41:29 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Jul 23, 2013 08:32:52 10-error] [snops5oq7k] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 22 Jul 13 22:32:52 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 57 seconds.
+`; recipient(s): ``.
+[Jul 24, 2013 08:34:44 10-error] [9yqyanwpoy] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 23 Jul 13 22:34:44 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 3 minutes.
+`; recipient(s): ``.
+[Jul 24, 2013 10:26:54 10-error] [d4pmebofqk] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 24 Jul 13 00:26:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 6 minutes.
+`; recipient(s): ``.
+[Jul 25, 2013 08:51:33 10-error] [hm3ueq8kaz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 24 Jul 13 22:51:33 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 26, 2013 08:46:54 10-error] [12bv2cfvsy] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 25 Jul 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Jul 27, 2013 08:51:55 10-error] [0i8gk0u8fb] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 26 Jul 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 28, 2013 08:51:55 10-error] [54d8bkvqk3] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 27 Jul 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 29, 2013 08:39:12 10-error] [u4tda71k87] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 28 Jul 13 22:39:12 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+[Jul 30, 2013 08:34:04 10-error] [5tscmytqxm] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 29 Jul 13 22:34:04 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 2 minutes.
+`; recipient(s): ``.
+[Jul 31, 2013 08:51:54 10-error] [34qw9azwkz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 30 Jul 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Jul 31, 2013 10:31:55 10-error] [twx7s839t1] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 31 Jul 13 00:31:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Aug 1, 2013 08:46:54 10-error] [9kc2yw024s] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 31 Jul 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Aug 2, 2013 08:41:55 10-error] [nznsrpwgfx] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 01 Aug 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Aug 3, 2013 08:34:52 10-error] [bxsgom15dg] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 02 Aug 13 22:34:52 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 3 minutes.
+`; recipient(s): ``.
+[Aug 4, 2013 08:41:54 10-error] [kdjvdtwfjh] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 03 Aug 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Aug 5, 2013 08:44:25 10-error] [segeozcba2] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 04 Aug 13 22:44:25 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 13 minutes.
+`; recipient(s): ``.
+[Aug 6, 2013 08:41:54 10-error] [hvfqo54hyv] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 05 Aug 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Aug 7, 2013 08:42:57 10-error] [6oxebvx0oy] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 06 Aug 13 22:42:57 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 12 minutes.
+`; recipient(s): ``.
+[Aug 7, 2013 10:20:51 10-error] [nzerm4s2gm] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 07 Aug 13 00:20:51 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 44 seconds.
+`; recipient(s): ``.
+[Aug 8, 2013 08:38:42 10-error] [z2ykw4df7i] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 07 Aug 13 22:38:42 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+[Aug 9, 2013 08:46:54 10-error] [roevrmt6m3] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 08 Aug 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Aug 10, 2013 08:46:31 10-error] [jo7ejkw1gp] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 09 Aug 13 22:46:31 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Aug 11, 2013 08:51:55 10-error] [k623xbt6ro] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 10 Aug 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Aug 12, 2013 08:40:31 10-error] [kc6nc6z46h] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 11 Aug 13 22:40:31 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 9 minutes.
+`; recipient(s): ``.
+[Aug 13, 2013 08:45:14 10-error] [uj4rxapta4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 12 Aug 13 22:45:14 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 13 minutes.
+`; recipient(s): ``.
+[Aug 14, 2013 08:46:32 10-error] [s0t78eayzx] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 13 Aug 13 22:46:32 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Aug 14, 2013 10:31:54 10-error] [c24xph06ea] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 14 Aug 13 00:31:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 12 minutes.
+`; recipient(s): ``.
+[Aug 15, 2013 08:41:55 10-error] [zs1cwj8c7n] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 14 Aug 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Aug 16, 2013 08:41:55 10-error] [18oxhd8drb] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 15 Aug 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Aug 17, 2013 08:43:18 10-error] [u4wgtqgp84] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 16 Aug 13 22:43:18 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Aug 18, 2013 08:43:54 10-error] [u4b4dqyznr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 17 Aug 13 22:43:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 12 minutes.
+`; recipient(s): ``.
+[Aug 19, 2013 08:44:28 10-error] [id3in5enbd] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 18 Aug 13 22:44:28 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 13 minutes.
+`; recipient(s): ``.
+[Aug 20, 2013 08:41:55 10-error] [9omb8yjfwo] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 19 Aug 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 21, 2013 08:40:39 10-error] [49gaxjynfi] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 20 Aug 13 22:40:39 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 21, 2013 10:36:54 10-error] [rybw9bmwxg] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 21 Aug 13 00:36:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 22, 2013 08:42:36 10-error] [857op3esho] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 21 Aug 13 22:42:36 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 23, 2013 08:39:57 10-error] [z0i7s6zhfq] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 22 Aug 13 22:39:57 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 24, 2013 08:51:54 10-error] [8nuitwueyf] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 23 Aug 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 25, 2013 08:46:54 10-error] [somyac74se] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 24 Aug 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 16 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 26, 2013 08:51:33 10-error] [bf5t68uimp] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 25 Aug 13 22:51:33 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 27, 2013 08:32:12 10-error] [nr09p2p0hk] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 26 Aug 13 22:32:12 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 45 seconds.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 28, 2013 08:36:29 10-error] [hr4q1bqvyg] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 27 Aug 13 22:36:29 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 5 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 28, 2013 10:31:55 10-error] [9xzrtibkwi] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 28 Aug 13 00:31:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 13 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 29, 2013 08:51:48 10-error] [pvxda234e1] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 28 Aug 13 22:51:48 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 30, 2013 08:51:55 10-error] [tvijn0vip5] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 29 Aug 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Aug 31, 2013 08:42:38 10-error] [i4i2b2uxdv] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 30 Aug 13 22:42:38 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 1, 2013 08:46:55 10-error] [8o5rtsmzjn] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 31 Aug 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 2, 2013 08:41:54 10-error] [m9stc5drut] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 01 Sep 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 3, 2013 08:51:54 10-error] [41jdvki16g] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 02 Sep 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 4, 2013 08:51:54 10-error] [srs43fqd2q] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 03 Sep 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 4, 2013 10:36:56 10-error] [bd4ve3ognc] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 04 Sep 13 00:36:56 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 5, 2013 08:40:40 10-error] [82hne3kwa1] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 04 Sep 13 22:40:40 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 9 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 6, 2013 08:39:26 10-error] [zopxwmzaiz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 05 Sep 13 22:39:26 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 7, 2013 08:51:55 10-error] [danfyjbobv] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 06 Sep 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 8, 2013 08:44:49 10-error] [9yke5b2utp] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 07 Sep 13 22:44:49 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 13 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 9, 2013 08:51:55 10-error] [w04hczywki] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 08 Sep 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 10, 2013 08:46:56 10-error] [7tn7bg6x14] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 09 Sep 13 22:46:56 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 11, 2013 08:38:57 10-error] [aqie6pi6s4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 10 Sep 13 22:38:57 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 11, 2013 10:28:46 10-error] [wkzthwn2f9] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 11 Sep 13 00:28:46 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 7 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 12, 2013 08:47:32 10-error] [on5ct9mxze] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 11 Sep 13 22:47:32 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 16 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 13, 2013 08:46:54 10-error] [aejxhfeuhj] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 12 Sep 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 14, 2013 08:50:05 10-error] [nwo5zb2hg9] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 13 Sep 13 22:50:05 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 18 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 15, 2013 08:46:55 10-error] [wtfzdtwjpa] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 14 Sep 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 16 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 16, 2013 08:51:55 10-error] [i0o7rogtnh] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 15 Sep 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 17, 2013 08:42:03 10-error] [76as09cxg1] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 16 Sep 13 22:42:03 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 18, 2013 08:41:55 10-error] [ntmomvoh6g] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 17 Sep 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 18, 2013 10:27:47 10-error] [g2j2ky1f32] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 18 Sep 13 00:27:47 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 9 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 19, 2013 08:43:36 10-error] [cqdy4cxpd3] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 18 Sep 13 22:43:36 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 12 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 20, 2013 08:46:54 10-error] [xrscx9zvh7] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 19 Sep 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 21, 2013 08:46:55 10-error] [yfinp8mso6] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 20 Sep 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 22, 2013 08:46:18 10-error] [gd12xaybpi] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 21 Sep 13 22:46:18 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 23, 2013 08:41:54 10-error] [r50n7pen32] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 22 Sep 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 24, 2013 08:46:54 10-error] [4p5bho6ucz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 23 Sep 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 25, 2013 08:32:06 10-error] [7edjsb6rmn] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 24 Sep 13 22:32:06 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 seconds.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 25, 2013 10:30:45 10-error] [mbfi0iaz36] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 25 Sep 13 00:30:45 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 9 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 26, 2013 08:46:55 10-error] [ctgfgnm6mb] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 25 Sep 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 27, 2013 08:51:55 10-error] [nszk086gp8] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 26 Sep 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 28, 2013 08:39:57 10-error] [t1bmtsrsdi] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 27 Sep 13 22:39:57 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 29, 2013 08:46:54 10-error] [t64orgcros] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 28 Sep 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Sep 30, 2013 08:47:16 10-error] [84wei64jzs] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 29 Sep 13 22:47:16 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 1, 2013 08:38:46 10-error] [4183h7b8dr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 30 Sep 13 22:38:46 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 2, 2013 08:51:54 10-error] [0ewhypmq7o] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 01 Oct 13 22:51:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 2, 2013 10:31:55 10-error] [i4jrzb7zxr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 02 Oct 13 00:31:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 10 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 3, 2013 08:31:28 10-error] [ga231qsq2c] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 02 Oct 13 22:31:28 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 1 minute.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 4, 2013 08:41:54 10-error] [3e21uhg2k5] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 03 Oct 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 5, 2013 08:41:54 10-error] [r56sdiatnk] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 04 Oct 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 6, 2013 09:49:26 11-error] [96askxvyrb] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 05 Oct 13 22:49:26 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 18 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 7, 2013 09:41:54 11-error] [t8mc2c9sh2] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 06 Oct 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 12 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 8, 2013 09:35:22 11-error] [iristi4a0t] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 07 Oct 13 22:35:22 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 3 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 9, 2013 09:38:05 11-error] [i7cjrxguet] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 08 Oct 13 22:38:05 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 6 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 9, 2013 11:24:21 11-error] [zgboe57et9] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 09 Oct 13 00:24:21 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 2 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 10, 2013 09:43:22 11-error] [u3th9obcqf] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 09 Oct 13 22:43:22 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+---
+Fatal PHP error encountered:
+type => 1
+message => Call to a member function alert() on a non-object
+file => /home/apparent/public_html/wordpress/wp-content/plugins/backupbuddy/pluginbuddy/_pluginbuddy.php
+line => 1080
+---
+[Oct 11, 2013 09:46:55 11-error] [jwax56xty4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 10 Oct 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Oct 12, 2013 09:41:55 11-error] [rob5vuxs0q] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 11 Oct 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Oct 13, 2013 09:41:54 11-error] [4s7yayibk0] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 12 Oct 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Oct 14, 2013 09:45:50 11-error] [cgv7sxc7gb] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 13 Oct 13 22:45:50 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+[Oct 15, 2013 09:46:54 11-error] [mdf40ipduq] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 14 Oct 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 17 minutes.
+`; recipient(s): ``.
+[Oct 16, 2013 09:46:55 11-error] [o9rnet0bzc] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 15 Oct 13 22:46:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Oct 16, 2013 11:36:55 11-error] [9rdy79ve9f] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 16 Oct 13 00:36:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Oct 17, 2013 09:41:54 11-error] [7o3o7xgedr] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 16 Oct 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Oct 18, 2013 09:41:55 11-error] [qpy923pszw] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 17 Oct 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Oct 19, 2013 09:41:55 11-error] [pw9w7u8v3n] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 18 Oct 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Oct 20, 2013 09:41:55 11-error] [bog521znxs] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 19 Oct 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 12 minutes.
+`; recipient(s): ``.
+[Oct 21, 2013 09:33:33 11-error] [q1mzgtbu5d] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 20 Oct 13 22:33:33 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 3 minutes.
+`; recipient(s): ``.
+[Oct 22, 2013 09:40:54 11-error] [e6t09yw7s9] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 21 Oct 13 22:40:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 9 minutes.
+`; recipient(s): ``.
+[Oct 23, 2013 09:36:54 11-error] [y3imuiv50g] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 22 Oct 13 22:36:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+[Oct 23, 2013 11:38:30 11-error] [1xkur4s2vf] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 23 Oct 13 00:38:30 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 17 minutes.
+`; recipient(s): ``.
+[Oct 23, 2013 11:41:55 11-error] [1xkur4s2vf] You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 143.23 MB available. Currently using 880.77 MB of 1 GB (86.01%).
+[Oct 23, 2013 11:41:55 11-error] [1xkur4s2vf] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 23 Oct 13 00:41:55 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 143.23 MB available. Currently using 880.77 MB of 1 GB (86.01%).`; recipient(s): `dotandpixel@gmail.com`.
+[Oct 23, 2013 11:41:55 11-error] [1xkur4s2vf] Failure sending to remote destination. Details: BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.
+[Oct 23, 2013 11:41:55 11-error] [1xkur4s2vf] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 23 Oct 13 00:41:55 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.`; recipient(s): `dotandpixel@gmail.com`.
+[Oct 24, 2013 09:34:06 11-error] [sqm0eoeu8a] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 23 Oct 13 22:34:06 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 4 minutes.
+`; recipient(s): ``.
+[Oct 25, 2013 09:38:38 11-error] [rhocmbhqpt] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 24 Oct 13 22:38:38 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+[Oct 26, 2013 09:40:20 11-error] [xmb1wgfsnk] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 25 Oct 13 22:40:20 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Oct 27, 2013 09:51:55 11-error] [41k236qndp] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 26 Oct 13 22:51:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 20 minutes.
+`; recipient(s): ``.
+[Oct 28, 2013 09:36:54 11-error] [ubsxqe50du] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 27 Oct 13 22:36:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 5 minutes.
+`; recipient(s): ``.
+[Oct 29, 2013 09:50:56 11-error] [acuqkt6if8] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 28 Oct 13 22:50:56 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 19 minutes.
+`; recipient(s): ``.
+[Oct 30, 2013 09:35:24 11-error] [w84k7hrvt6] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 29 Oct 13 22:35:24 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 5 minutes.
+`; recipient(s): ``.
+[Oct 30, 2013 11:40:14 11-error] [1q98787xde] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 30 Oct 13 00:40:14 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 18 minutes.
+`; recipient(s): ``.
+[Oct 30, 2013 11:41:57 11-error] [1q98787xde] You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.99 MB available. Currently using 881.01 MB of 1 GB (86.04%).
+[Oct 30, 2013 11:41:57 11-error] [1q98787xde] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 30 Oct 13 00:41:57 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.99 MB available. Currently using 881.01 MB of 1 GB (86.04%).`; recipient(s): `dotandpixel@gmail.com`.
+[Oct 30, 2013 11:41:57 11-error] [1q98787xde] Failure sending to remote destination. Details: BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.
+[Oct 30, 2013 11:41:57 11-error] [1q98787xde] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 30 Oct 13 00:41:57 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.`; recipient(s): `dotandpixel@gmail.com`.
+[Oct 31, 2013 09:42:47 11-error] [6joaouyzab] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 30 Oct 13 22:42:47 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 13 minutes.
+`; recipient(s): ``.
+[Nov 1, 2013 09:39:49 11-error] [xuh64yz9bz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 31 Oct 13 22:39:49 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 8 minutes.
+`; recipient(s): ``.
+[Nov 2, 2013 09:41:49 11-error] [iu5jgw7atm] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 01 Nov 13 22:41:49 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Nov 3, 2013 09:47:32 11-error] [b0cows84sm] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 02 Nov 13 22:47:32 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 16 minutes.
+`; recipient(s): ``.
+[Nov 4, 2013 09:50:38 11-error] [4nhtjnhv34] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 03 Nov 13 22:50:38 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 19 minutes.
+`; recipient(s): ``.
+[Nov 5, 2013 09:51:08 11-error] [nxeq42kpsz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 04 Nov 13 22:51:08 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 19 minutes.
+`; recipient(s): ``.
+[Nov 6, 2013 09:38:25 11-error] [eq5q0wqgbd] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 05 Nov 13 22:38:25 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+[Nov 6, 2013 11:32:03 11-error] [thpobe2wp3] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 06 Nov 13 00:32:03 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 13 minutes.
+`; recipient(s): ``.
+[Nov 6, 2013 11:36:41 11-error] [thpobe2wp3] You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.96 MB available. Currently using 881.04 MB of 1 GB (86.04%).
+[Nov 6, 2013 11:36:41 11-error] [thpobe2wp3] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 06 Nov 13 00:36:41 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.96 MB available. Currently using 881.04 MB of 1 GB (86.04%).`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 6, 2013 11:36:41 11-error] [thpobe2wp3] Failure sending to remote destination. Details: BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.
+[Nov 6, 2013 11:36:41 11-error] [thpobe2wp3] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 06 Nov 13 00:36:41 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 7, 2013 09:41:30 11-error] [frdqeqp8s5] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 06 Nov 13 22:41:30 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Nov 8, 2013 09:41:46 11-error] [mpkwn8iy0c] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 07 Nov 13 22:41:46 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Nov 9, 2013 09:41:22 11-error] [od8grmhz7u] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 08 Nov 13 22:41:22 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Nov 10, 2013 09:47:48 11-error] [9axqd848zv] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 09 Nov 13 22:47:48 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 16 minutes.
+`; recipient(s): ``.
+[Nov 11, 2013 09:46:30 11-error] [kpnxnh9zky] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 10 Nov 13 22:46:30 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+[Nov 12, 2013 09:41:10 11-error] [x9cbhk4xfk] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 11 Nov 13 22:41:10 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Nov 13, 2013 09:51:06 11-error] [ecibqnwte5] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 12 Nov 13 22:51:06 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 19 minutes.
+`; recipient(s): ``.
+[Nov 13, 2013 11:23:51 11-error] [ayoror13zv] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 13 Nov 13 00:23:51 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 4 minutes.
+`; recipient(s): ``.
+[Nov 13, 2013 11:23:54 11-error] [ayoror13zv] You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.9 MB available. Currently using 881.1 MB of 1 GB (86.04%).
+[Nov 13, 2013 11:23:54 11-error] [ayoror13zv] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 13 Nov 13 00:23:54 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.9 MB available. Currently using 881.1 MB of 1 GB (86.04%).`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 13, 2013 11:23:54 11-error] [ayoror13zv] Failure sending to remote destination. Details: BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.
+[Nov 13, 2013 11:23:54 11-error] [ayoror13zv] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 13 Nov 13 00:23:54 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 14, 2013 09:36:55 11-error] [6cy7hkhd32] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 13 Nov 13 22:36:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 7 minutes.
+`; recipient(s): ``.
+[Nov 15, 2013 09:46:56 11-error] [f04bwsoyan] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 14 Nov 13 22:46:56 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Nov 16, 2013 09:41:54 11-error] [2xvsv840iz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 15 Nov 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Nov 17, 2013 09:46:56 11-error] [gdao2fcxe4] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 16 Nov 13 22:46:56 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Nov 18, 2013 09:41:54 11-error] [znb5ed95re] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 17 Nov 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Nov 19, 2013 09:46:54 11-error] [93irdxjs5g] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 18 Nov 13 22:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 17 minutes.
+`; recipient(s): ``.
+[Nov 20, 2013 09:40:43 11-error] [e27t3arwen] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 19 Nov 13 22:40:43 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 9 minutes.
+`; recipient(s): ``.
+[Nov 20, 2013 11:31:55 11-error] [sqrvmdaomx] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 20 Nov 13 00:31:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 11 minutes.
+`; recipient(s): ``.
+[Nov 20, 2013 11:31:59 11-error] [sqrvmdaomx] You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.93 MB available. Currently using 881.07 MB of 1 GB (86.04%).
+[Nov 20, 2013 11:31:59 11-error] [sqrvmdaomx] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 20 Nov 13 00:31:59 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+You do not have enough Stash storage space to send this file. Please upgrade your Stash storage at http://ithemes.com/member/stash.php or delete files to make space.
+
+Attempting to send file of size 191.54 MB but you only have 142.93 MB available. Currently using 881.07 MB of 1 GB (86.04%).`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 20, 2013 11:31:59 11-error] [sqrvmdaomx] Failure sending to remote destination. Details: BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.
+[Nov 20, 2013 11:31:59 11-error] [sqrvmdaomx] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Wed, 20 Nov 13 00:31:59 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+BackupBuddy failed sending a backup to the remote destination "Apparent Stash" (id: 0). Please verify and test destination settings and permissions. Check the error log for further details.`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 20, 2013 11:46:54 11-error] [o4iz9zx8yu] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 20 Nov 13 00:46:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 12 minutes.
+`; recipient(s): ``.
+[Nov 20, 2013 11:48:43 11-error] [ayshteau3e] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 20 Nov 13 00:48:43 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 14 minutes.
+`; recipient(s): ``.
+[Nov 21, 2013 09:33:03 11-error] [3n6n3gzdav] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 20 Nov 13 22:33:03 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 2 minutes.
+`; recipient(s): ``.
+[Nov 22, 2013 09:32:24 11-error] [xw4my8iets] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 21 Nov 13 22:32:24 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 1 minute.
+`; recipient(s): ``.
+[Nov 23, 2013 09:41:54 11-error] [y7j5doqk29] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Fri, 22 Nov 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Nov 24, 2013 09:36:55 11-error] [3u7290bcuw] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sat, 23 Nov 13 22:36:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 5 minutes.
+`; recipient(s): ``.
+[Nov 25, 2013 09:36:47 11-error] [7cf6wfw92c] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 24 Nov 13 22:36:47 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 5 minutes.
+`; recipient(s): ``.
+[Nov 26, 2013 09:46:31 11-error] [4ijmfoinwz] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Mon, 25 Nov 13 22:46:31 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 15 minutes.
+`; recipient(s): ``.
+[Nov 27, 2013 09:31:58 11-error] [] Fileoptions file `/home/apparent/public_html/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/4ijmfoinwz.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Nov 27, 2013 09:41:55 11-error] [d0k6nbqkij] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Tue, 26 Nov 13 22:41:55 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Nov 27, 2013 11:23:58 11-error] [uvb95wmcnp] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 27 Nov 13 00:23:58 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly" completed successfully in 4 minutes.
+`; recipient(s): ``.
+[Nov 28, 2013 09:41:54 11-error] [nertq6jtfm] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://www.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Wed, 27 Nov 13 22:41:54 +0000 for the site http://www.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Daily" completed successfully in 10 minutes.
+`; recipient(s): ``.
+[Nov 28, 2013 11:19:19 11-error] [d5n6i5khk9] Error #3382: Backup FAILED. Unable to successfully generate ZIP archive.
+[Nov 28, 2013 11:19:19 11-error] [d5n6i5khk9] Error #3382 help: http://ithemes.com/codex/page/BackupBuddy:_Error_Codes#3382
+[Nov 28, 2013 11:19:19 11-error] [d5n6i5khk9] Failed function `backup_zip_files`. Backup terminated.
+[Nov 28, 2013 11:19:19 11-error] [d5n6i5khk9] Sending email error notification. Subject: `BackupBuddy Error - http://www.apparent.com.au/wordpress`; body: `An error occurred with BackupBuddy v4.0.1 on Thu, 28 Nov 13 00:19:19 +0000 for the site http://www.apparent.com.au/wordpress. Error details:
+
+One or more backup steps reported a failure. Backup failure running function `backup_zip_files` with the arguments `` with backup serial `d5n6i5khk9`. Please run a manual backup of the same type to verify backups are working properly.`; recipient(s): `dotandpixel@gmail.com`.
+[Nov 29, 2013 09:30:13 11-error] [] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/12re5ir704.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Nov 29, 2013 09:30:43 11-error] [wt4qk7bcdo] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://local.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Thu, 28 Nov 13 22:30:43 +0000 for the site http://local.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly DB" completed successfully in 30 seconds.
+`; recipient(s): ``.
+[Dec 2, 2013 08:09:33 11-error] [] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/wt4qk7bcdo.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:26:04 11-error] [z30ir1uq3s] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:26:09 11-error] [z30ir1uq3s] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:26:24 11-error] [z30ir1uq3s] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:26:40 11-error] [z30ir1uq3s] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:27:10 11-error] [z30ir1uq3s] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:27:40 11-error] [z30ir1uq3s] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 08:27:40 11-error] [z30ir1uq3s] Backup halted. Maximum number of attempts made attempting to access locked fileoptions file. This may be caused by something causing backup steps to run out of order or file permission issues on the temporary directory holding the file ``. Verify correct permissions.
+[Dec 2, 2013 09:30:01 11-error] [] Fileoptions file `/Applications/MAMP/htdocs/apparent/apparent_site/wordpress/wp-content/uploads/pb_backupbuddy/fileoptions/z30ir1uq3s.txt` not found and NOT in create mode. Verify file exists & check permissions.
+[Dec 2, 2013 09:33:20 11-error] [hu3m9vecbw] Sending email schedule notification. Subject: `BackupBuddy Scheduled Backup Complete - http://local.apparent.com.au/wordpress`; body: `A scheduled backup has completed with BackupBuddy v4.0.1 on Sun, 01 Dec 13 22:33:20 +0000 for the site http://local.apparent.com.au/wordpress.
+
+Details:
+
+Scheduled backup "Weekly DB" completed successfully in 3 minutes.
+`; recipient(s): ``.

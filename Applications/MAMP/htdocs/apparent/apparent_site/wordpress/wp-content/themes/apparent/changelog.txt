@@ -1,0 +1,36 @@
+*** Blox Changelog ***
+
+11 December 2012 - Version 1.1
+
+	* jquery.flexslider-min.js - file updated to newest version
+	* single-portfolio.php 
+		- Remove template name
+		- Fix positioning of entry-media and entry-content
+	* style.css
+		- update version number
+		- adjust z-index on nav buttons
+		- fix page title/caption cut off bug
+		- styling for archive-portfolio.php
+		- general file clean up
+		- reversed media queries
+	* functions.php 
+		- update zilla_gallery to work with old/new media
+		- update custom backgrounds to work with private portfolios
+		- update background css to use cover property
+	* general-settings.php 
+		- fix redeclare zilla_feed_redirect
+		- wrap functions in if function_exists checks
+	* styling-options.php - change add_filter to add_action
+	* header.php - fix IF statement to include archive-portfolio.php
+	* footer.php - fix IF statement to include archive-portfolio.php
+	* portfolio-meta.php - add background cover property
+	* default.po / default.mo - updated translation strings
+
+	* framework updated to v.1.0.2.5
+
+	ADDED:
+	* archive-portfolio.php
+
+03 Oct 2012 - Version 1.0
+
+	First Release

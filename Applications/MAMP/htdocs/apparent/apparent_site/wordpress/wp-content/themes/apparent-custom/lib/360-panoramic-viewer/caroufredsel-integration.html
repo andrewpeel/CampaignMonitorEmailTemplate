@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Panorama 360&deg;</title>
+	<link rel="stylesheet" href="assets-demos/css/demo.css" media="all" />
+	<link rel="stylesheet" href="css/panorama360.css" media="all" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery.mousewheel.min.js" type="text/javascript"></script>
+	<script src="js/jquery.panorama360.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="assets-demos/js/fancybox/jquery.fancybox.css" media="all" />
+	<script src="assets-demos/js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+	<script src="assets-demos/js/carouFredSel/jquery.carouFredSel-5.6.1-packed.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	<!--
+		$(function(){
+			$('.panorama .panorama-view').panorama360();
+
+			$('.panorama .slides .slide a').click(function(ev) {
+				ev.preventDefault();
+				if ($(this).hasClass('active')) return;
+				$('.panorama .preloader').show();
+				$('.slides .slide a').removeClass('active');
+				$(this).addClass('active');
+				$('.panorama .panorama-view').hide();
+				$('.panorama .panorama-container').html($(this).next().html());
+				$('.panorama .panorama-view').panorama360({sliding_direction: 0});
+				$('.panorama .info').html($(this).attr("title"));
+				$('.panorama .info').attr('href',$(this).data("infourl"));
+			});
+			$('.panorama .hotspot').fancybox({
+					maxWidth	: 800,
+					maxHeight	: 600,
+					padding		: 0,
+					fitToView	: true,
+					mouseWheel	: false,
+					width		: '90%',
+					height		: '90%',
+					autoSize	: false,
+					closeClick	: false
+			});
+			$('.panorama .slides-container').carouFredSel({
+				direction: 'up',
+				circular: false,
+				infinite: false,
+				height: '100%',
+				padding: [100,0,100,0],
+				items: { visible: 'variable', width: 100, height: 100, filter: '.slide' },
+				scroll: { fx: 'directscroll', mousewheel: true },
+				auto: false,
+				prev: '.slides .up',
+				next: '.slides .down'
+			});
+		});
+	-->
+	</script>
+</head>
+<body>
+	<div class="panorama">
+		<div class="preloader"></div>
+		<div class="panorama-view">
+			<div class="panorama-container">
+				<img src="http://upload.wikimedia.org/wikipedia/commons/1/15/View_from_Sky_Tower_Akl.jpg" usemap="#hotspots_current" data-width="4996" data-height="1300" alt="Panorama" />
+				<map id="hotspots_current" name="hotspots_current"> 
+					<area class="hotspot first" shape="rect" coords="300,530,490,580" href="http://th07.deviantart.net/fs71/PRE/i/2010/039/e/9/Bridge_Wallpaper_by_tonvanalebeek.jpg" alt="This is a hotspot" />
+					<area class="hotspot last" shape="rect" coords="640,760,820,890" href="http://upload.wikimedia.org/wikipedia/commons/a/ae/Umeda_Sky_building.jpg" alt="Another hotspot" />
+				</map>
+			</div>
+		</div>
+		<div class="slides">
+			<a href="#" class="up"><span>&#9652;</span></a>
+			<a href="#" class="down"><span>&#9662;</span></a>
+			<div class="slides-container">
+				<div class="slide">
+					<a href="http://upload.wikimedia.org/wikipedia/commons/1/15/View_from_Sky_Tower_Akl.jpg" class="active" title="View from Sky Tower"  data-infourl="http://commons.wikimedia.org/wiki/File:View_from_Sky_Tower_Akl.jpg"><img src="assets-demos/images/slide1.jpg" alt="" width="94" height="94" /></a>
+					<div style="display:none">
+						<img src="http://upload.wikimedia.org/wikipedia/commons/1/15/View_from_Sky_Tower_Akl.jpg" usemap="hotspots1" data-width="4996" data-height="1300" alt="" />
+						<map id="hotspots1" name="hotspots1"> 
+							<area class="hotspot first" shape="rect" coords="300,530,490,580" href="http://th07.deviantart.net/fs71/PRE/i/2010/039/e/9/Bridge_Wallpaper_by_tonvanalebeek.jpg" alt="This is a hotspot" />
+							<area class="hotspot last" shape="rect" coords="640,760,820,890" href="http://upload.wikimedia.org/wikipedia/commons/a/ae/Umeda_Sky_building.jpg" alt="Another hotspot" />
+						</map>
+					</div>
+				</div>
+				<div class="slide">
+					<a href="http://upload.wikimedia.org/wikipedia/commons/2/21/Panorama_du_Gendarmenmarkt.jpg" title="Panorama du Gendarmenmarkt" data-infourl="http://commons.wikimedia.org/wiki/File:Panorama_du_Gendarmenmarkt.jpg"><img src="assets-demos/images/slide2.jpg" alt="" width="94" height="94" /></a>
+					<div style="display:none">
+						<img src="http://upload.wikimedia.org/wikipedia/commons/2/21/Panorama_du_Gendarmenmarkt.jpg" usemap="hotspots2" data-width="5000" data-height="672" alt="" />
+						<map id="hotspots2" name="hotspots2"> 
+							<area class="hotspot first" shape="rect" coords="800,330,990,480" href="http://redmapsblog.files.wordpress.com/2010/11/komische-oper-berlin.jpeg" alt="This is a hotspot" />
+						</map>
+					</div>
+				</div>
+				<div class="slide">
+					<a href="http://upload.wikimedia.org/wikipedia/commons/0/0f/Clapham_Common_360_Panorama_-_July_2007.jpg" title="Clapham Panorama" data-infourl="http://commons.wikimedia.org/wiki/File:Clapham_Common_360_Panorama_-_July_2007.jpg"><img src="assets-demos/images/slide3.jpg" alt="" width="94" height="94" /></a>
+					<div style="display:none">
+						<img src="http://upload.wikimedia.org/wikipedia/commons/0/0f/Clapham_Common_360_Panorama_-_July_2007.jpg" data-width="4625" data-height="774" alt="" />
+					</div>
+				</div>
+				<div class="slide">
+					<a href="http://upload.wikimedia.org/wikipedia/commons/6/63/Catalunya360.jpg" title="Catalunya Panorama" data-infourl="http://commons.wikimedia.org/wiki/File:Catalunya360.jpg"><img src="assets-demos/images/slide4.jpg" alt="" width="94" height="94" /></a>
+					<div style="display:none">
+						<img src="http://upload.wikimedia.org/wikipedia/commons/6/63/Catalunya360.jpg" data-width="6028" data-height="600" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<a class="info" href="http://commons.wikimedia.org/wiki/File:View_from_Sky_Tower_Akl.jpg">Sky Tower Akl</a>
+	</div>
+</body>
+</html>

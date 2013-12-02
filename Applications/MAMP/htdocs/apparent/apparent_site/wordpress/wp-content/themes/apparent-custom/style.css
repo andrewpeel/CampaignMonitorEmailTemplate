@@ -1,0 +1,903 @@
+@import url("../apparent/style.css");
+/*
+Theme Name:     Apparent Custom
+Theme URI:      http://apparent.com.au
+Description:    Child theme for the Apparent theme
+Author:         Andrew Peel
+Author URI:     http://peee.la
+Template:       apparent
+Version:        0.1.0
+*/
+body {
+  color: #666; }
+
+h4, h5, h6 {
+  font-weight: bold; }
+
+/*
+* Header
+*
+*/
+#logo {
+  opacity: 0.5;
+  -webkit-transition: opacity .1s linear;
+  -moz-transition: opacity .1s linear;
+  -o-transition: opacity .1s linear;
+  -ms-transition: opacity .1s linear;
+  transition: opacity .1s linear; }
+
+#logo:hover {
+  opacity: 1; }
+
+.header-outer {
+  padding: 40px 0 20px;
+  border-top: solid 5px #d2232a; }
+
+.footer-outer {
+  border-bottom: solid 5px #d2232a; }
+
+/* HOME */
+.page-template-template-home-php #primary {
+  width: 100%; }
+
+.page-template-template-home-php .hentry-inner {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 940px; }
+
+.page-template-template-home-php .hentry {
+  width: 100%; }
+
+.entry-content {
+  margin-bottom: 0px; }
+
+.home-intro.portfolio {
+  padding-top: 3em;
+  text-align: center; }
+
+.home-intro .entry-title {
+  line-height: 1em;
+  font-size: 46px; }
+
+.home-intro .hfeed {
+  margin-bottom: 0; }
+
+.portfolio-item {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding-top: 40px; }
+
+.portfolio-item .entry-content {
+  margin-bottom: 0px;
+  padding-bottom: 40px; }
+
+.portfolio-item .entry-title {
+  margin-bottom: 1.2rem;
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.widget_zilla_social_widget {
+  margin-top: 0;
+  margin-bottom: 20px; }
+
+.widget_zilla_social_widget .size-32px a {
+  margin-bottom: 0; }
+
+.zilla-social .size-32px {
+  height: 32px !important; }
+
+#footer-nav ul {
+  margin: 0 0 0 0; }
+
+@media only screen and (max-width: 990px) {
+  #footer-nav {
+    float: none;
+    max-width: none; } }
+@media only screen and (min-width: 990px) {
+  #footer-nav {
+    float: right;
+    max-width: 55%; } }
+@media only screen and (max-width: 960px) {
+  #footer {
+    padding: 40px 0 50px;
+    width: 90%; } }
+@media only screen and (min-width: 960px) {
+  #footer {
+    padding: 40px 0 50px;
+    width: 940px; } }
+@media screen and (max-width: 992px) {
+  #header {
+    display: none; }
+
+  .header-outer {
+    padding: 40px 0 0px; }
+
+  #zilla-menu-dropdown div.mobile-logo {
+    position: absolute;
+    display: block;
+    width: 50%;
+    height: 42px;
+    left: 0;
+    top: 0;
+    background: #232527 url(http://www.apparent.com.au/wordpress/wp-content/themes/apparent-custom/images/apparentlogo.png) 10% 50% no-repeat;
+    background-size: auto 44%; }
+
+  #zilla-menu-dropdown {
+    background: white url(http://www.apparent.com.au/wordpress/wp-content/themes/apparent-custom/images/menu-icon-reverse.gif) 95% 50% no-repeat; }
+
+  /* Mobile Navigation Styles */
+  #zilla-menu-dropdown,
+  #zilla-mobile-menu-wrap,
+  #zilla-mobile-menu,
+  #zilla-menu-dropdown,
+  #zilla-menu-dropdown div.mobile-logo {
+    background-color: #FFF; }
+
+  #zilla-mobile-menu li {
+    /*border-top: 1px solid #9da0a4;*/
+    border-top: none; }
+
+  #zilla-mobile-menu li a, #zilla-mobile-menu li a:visited {
+    color: #9da0a4; }
+
+  #zilla-mobile-menu li a:hover, #zilla-mobile-menu li a:active, #zilla-mobile-menu li a:focus {
+    color: #000; }
+
+  /* HOME */
+  .page-template-template-home-php .hentry-inner {
+    width: 100%; }
+
+  .portfolio-item {
+    width: 50%; } }
+@media screen and (min-width: 992px) {
+  #zilla-menu-dropdown, #zilla-mobile-menu {
+    display: none; } }
+@media only screen and (max-width: 640px) {
+  .portfolio, .portfolio:first-child {
+    padding: 30px 0; }
+
+  .home-intro .entry-title {
+    line-height: 1em;
+    font-size: 24px;
+    padding-left: 5px;
+    padding-right: 5px; } }
+@media screen and (max-width: 560px) {
+  /* HOME */
+  .portfolio-item {
+    width: 100%; } }
+/*
+* Home
+*
+*/
+.home .more-portfolio {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem; }
+
+.home .more-portfolio .more-link {
+  margin-top: 0; }
+
+/*
+* Pages
+*
+*/
+.home .page-header,
+.page-contact .page-header,
+.page-team .page-header,
+.page-clients .page-header,
+.page-approach .page-header,
+.category-opinion .page-header,
+.category-news .page-header,
+.category-opinion .widget-title,
+.category-news .widget-title,
+.page-contact .widget-title {
+  display: none; }
+
+.widget h4 {
+  color: inherit;
+  font-weight: bold; }
+
+.entry-title a {
+  color: inherit; }
+
+/*
+* Contact
+*
+*/
+@media screen and (min-width: 640px) {
+  a[href^="tel:"] {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    cursor: none; } }
+.zilla .gform_wrapper, .zilla .gform_body {
+  border: none;
+  padding: 0 0 0 0; }
+
+/*
+* Posts
+*
+*/
+.format-quote .entry-title, .format-quote .entry-meta, .format-quote .entry-content,
+.format-link .entry-title, .format-link .entry-meta, .format-link .entry-content {
+  text-align: center; }
+
+.format-quote .entry-header,
+.format-link .entry-header {
+  margin-top: 3.28571em; }
+
+.format-quote .entry-meta,
+.format-link .entry-meta {
+  margin-bottom: 0; }
+
+.single .format-quote .entry-meta,
+.single .format-link .entry-meta {
+  margin-top: 2.142857em; }
+
+.single .format-quote .entry-header,
+.single .format-link .entry-header {
+  margin-top: 2.142857em;
+  margin-bottom: 2.142857em; }
+
+.single .format-quote .entry-footer,
+.single .format-link .entry-footer {
+  margin-top: 4.28571em;
+  margin-bottom: 2.142857em; }
+
+/* Blog backgrounds */
+body.category, body.archive, body.blog {
+  /*background:#FFF;*/ }
+
+body.category .header-outer, body.archive .header-outer, body.blog .header-outer {
+  /*border-bottom: 1px solid #cfd2d5;*/ }
+
+.page h4 {
+  margin-bottom: 0.8rem; }
+
+/* Pagination */
+.page-navigation .nav-next {
+  float: right; }
+
+.page-navigation .nav-previous {
+  float: left; }
+
+.comment-navigation .nav-next {
+  float: right; }
+
+.comment-navigation .nav-previous {
+  float: left; }
+
+.page-navigation .nav-next a {
+  background-position: 5px -25px; }
+
+.page-navigation .nav-previous a {
+  background-position: 4px 5px; }
+
+/* Portofolio */
+/* Google */
+#post-175626388 {
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-color: #fdfdfd !important;
+  background-image: url(http://www.apparent.com.au/wordpress/wp-content/uploads/2013/06/google-companies-7.png) !important;
+  background-repeat: repeat-y !important;
+  background-position: top center !important;
+  background-size: 3000px 126px !important; }
+
+#post-175626388 .entry-title,
+#post-175626388 .entry-title a {
+  color: #4770dc; }
+
+#post-175626388 .entry-title a:hover {
+  color: #198726; }
+
+#post-175626388 .zilla-caption {
+  color: #fcad12; }
+
+#post-175626388 p {
+  color: #d1142d; }
+
+#post-175626388 .more-link {
+  color: #FFF;
+  background: #198726; }
+
+#post-175626388 .more-link:hover {
+  color: #FFF;
+  background: #4770dc; }
+
+#post-175626388 #slider-175626388 img {
+  margin-top: 5%; }
+
+/*
+Red #d1142d
+Blue #4770dc
+Green #198726
+Yellow #fcad12
+*/
+/* Good Glen */
+#post-175626389 {
+  /* Full
+  background-image: url(http://www.apparent.com.au/wordpress/wp-content/uploads/2013/05/goodglen-bkgd-1.gif) !important;
+  background-position: center center !important;*/
+  /* Half
+  background-image: url(http://www.apparent.com.au/wordpress/wp-content/uploads/2013/05/goodglen-bkgd-3.gif) !important;
+  background-position: bottom center !important;*/ }
+
+#post-175626389 .entry-title,
+#post-175626389 .entry-title a,
+#post-175626389 .zilla-caption,
+#post-175626389 p {
+  color: #695d54; }
+
+#post-175626389 .entry-title a:hover {
+  color: #3a332e; }
+
+#post-175626389 .more-link {
+  color: #FFF;
+  background: #695d54; }
+
+#post-175626389 .more-link:hover {
+  color: #FFF;
+  background: #3a332e; }
+
+/* Brennan IT */
+#post-175626390 {
+  /*background-size: 125px 68.25px !important;*/
+  /*background-size: 62.5px 68.25px !important;*/ }
+
+#post-175626390 .entry-title,
+#post-175626390 .entry-title a {
+  color: #004b9b; }
+
+#post-175626390 .zilla-caption,
+#post-175626390 p {
+  color: #666; }
+
+#post-175626390 .more-link {
+  color: #FFF;
+  background: #004b9b; }
+
+#post-175626390 .more-link:hover {
+  color: #FFF;
+  background: #0070e8; }
+
+/* UBank */
+#post-204 .entry-title,
+#post-204 .entry-title a,
+#post-204 .zilla-caption,
+#post-204 p a,
+#post-204 p {
+  color: #00473d; }
+
+#post-204 .entry-title a:hover,
+#post-204 p a:hover {
+  color: #007d6c; }
+
+#post-204 .more-link {
+  color: #f6f8de;
+  background: #00473d; }
+
+#post-204 .more-link:hover {
+  color: #f6f8de;
+  background: #007d6c; }
+
+/* Weight Watchers HLA */
+#post-190 .entry-title,
+#post-190 .entry-title a,
+#post-190 .zilla-caption,
+#post-190 p a,
+#post-190 p {
+  color: #f3efe4; }
+
+#post-190 .entry-title a:hover,
+#post-190 p a:hover {
+  color: #005a70; }
+
+#post-190 .more-link {
+  color: #0082a4;
+  background: #f3efe4; }
+
+#post-190 .more-link:hover {
+  color: #f3efe4;
+  background: #005a70; }
+
+/* Nikon */
+#post-175626391 .entry-title a,
+#post-175626391 p a {
+  color: #ffe600; }
+
+#post-175626391 .entry-title a:hover,
+#post-175626391 p a:hover {
+  color: #fff; }
+
+#post-175626391 .zilla-caption {
+  opacity: 0.5; }
+
+#post-175626391 p {
+  opacity: 0.8; }
+
+#post-175626391 .more-link:hover {
+  color: #000;
+  background: #ffe600; }
+
+/* 8700 */
+#post-175626503 .entry-title a,
+#post-175626503 p a {
+  color: #fff; }
+
+#post-175626503 .entry-title a:hover,
+#post-175626503 p a:hover {
+  color: #ed1845; }
+
+#post-175626503 p a:hover {
+  opacity: 0.5; }
+
+#post-175626503 .zilla-caption {
+  opacity: 0.5; }
+
+#post-175626503 p {
+  opacity: 0.8; }
+
+#post-175626503 .more-link {
+  color: #fff;
+  background: #ed1845; }
+
+#post-175626503 .more-link:hover {
+  color: #ed1845;
+  background: #fff; }
+
+/* GETREADING! */
+#post-175626627 .entry-title a,
+#post-175626627 p a {
+  color: #f12a15; }
+
+#post-175626627 .zilla-caption {
+  opacity: 0.3; }
+
+#post-175626627 p {
+  opacity: 0.8; }
+
+#post-175626503 .zilla-caption {
+  opacity: 0.5; }
+
+#post-175626627 .more-link {
+  color: #fff;
+  background: #f12a15; }
+
+#post-175626627 .more-link:hover {
+  color: #fff;
+  background: #b40000; }
+
+/*
+
+.bkgd-header {
+	background-repeat: no-repeat;
+	background-position: top center;
+	overflow: visible;
+}
+
+@media screen and (min-width: 1800px) {
+	.bkgd-header {
+		-webkit-background-size: contain;
+		-moz-background-size: contain;
+		-o-background-size: contain;
+		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 1800px) {
+	.bkgd-header {
+		-webkit-background-size: 1800px auto;
+		-moz-background-size: 1800px auto;
+		-o-background-size: 1800px auto;
+		background-size: 1800px auto;
+	}
+}
+.logo-img {
+	background: url('images/cascadecoallogo.gif') no-repeat;
+	background-image: url('images/cascadecoallogo.svg');
+	width: 198px;
+	height: 38px;
+}
+
+
+@media screen and (min-width: 640px) {
+	.logo-img {
+		width: 198px;
+		height: 38px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.logo-img {
+		width: 95%;
+		height: auto;
+	}
+}
+
+
+
+
+
+
+.page-template-template-front-php .sidebar-front .widget {
+	float: left;
+	width: 51.875%;
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+}
+.page-template-template-front-php .sidebar-front .widget:nth-child(odd) {
+	clear: right;
+}
+.page-template-template-front-php .sidebar-front .widget:nth-child(even) {
+	float: right;
+	width: 39.0625%;
+	margin: 0 0 24px;
+	margin: 0 0 1.714285714rem;
+}
+
+@media screen and (max-width: 768px) {
+	.page-template-template-front-php .sidebar-front .widget,
+	.page-template-template-front-php .sidebar-front .widget:nth-child(odd),
+	.page-template-template-front-php .sidebar-front .widget:nth-child(even) {
+		float: left;
+		width: 100%;
+		clear: right;
+		margin-bottom: 24px;
+		margin-bottom: 1.714285714rem;
+	}
+}
+
+
+
+
+
+.home .header-outer {
+	padding: 30px 0 20px;
+}
+
+.home #primary {
+	display:none;
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+::selection {
+	background: none;
+};
+
+
+
+
+
+
+
+#login h1, .login h1, .login #backtoblog {
+	display:none;
+}
+
+*/
+/*
+
+
+
+body {
+	background:#cfecff;
+}
+
+body{
+	color:#47728e;
+}
+.widget ul a, h2, h2 a, h2.entry-title, h2.entry-title a {
+	color:#002f4d;
+}
+h1.page-title, h1 {
+	color:#009aff;
+}
+
+.widget-title{
+	color:#47728e;
+}
+
+
+*/
+/*
+.template-front-page.two-sidebars .widget-area .front-widgets {
+	float: left;
+	width: 51.875%;
+	margin-bottom: 24px;
+	margin-bottom: 1.714285714rem;
+}
+*/
+/*
+.bkgd-header {
+	min-height: 100%;
+	min-width: 1200px;
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
+/*.bkgd-home {
+	background: url('http://cascadecoal.weareapparent.com.au/site/wordpress/wp-content/uploads/2013/05/bkgd-mt-penny-1.png') no-repeat center top;
+}*/
+/*
+.header-background-container{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+	border: solid 1px #000;
+}
+.header-background-image {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	border: solid 1px #F0F;
+}
+*/
+/*
+.header-background-wrapper{
+	display:block;
+	position:relative;
+	border: solid 1px #00F;
+}
+.header-background-container{
+	display:block;
+	position:absolute;
+	width:1200px;
+	left: 50%;
+	border: solid 1px #000;
+}
+.header-background-image {
+	position:absolute;
+	left:-600px;
+	border: solid 1px #F0F;
+}
+
+*/
+/*
+body{
+	background:#009aff;
+}
+
+
+body {
+	background: #cfecff;
+}
+
+#content {
+	background:#cfecff;
+}
+
+#content {
+	background:#009aff;
+}
+
+
+html{
+	overflow:hidden;
+}
+
+body .site {
+	margin-top: 0;
+}
+
+
+
+h1.site-title{
+	text-align: left;
+}
+
+h1.site-logo{
+	text-align: left;
+}
+.site-header h1{
+	line-height: 1;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+
+
+.menu-toggle-wrapper {
+
+}
+.menu-toggle {
+
+}
+
+.main-navigation {
+	margin-top:0;
+}
+
+.main-navigation ul.nav-menu {
+	text-align: right;
+	border:none;
+}
+
+.main-navigation ul.nav-menu .sub-menu {
+	text-align: left;
+}
+
+.main-navigation ul.nav-menu li {
+	margin: 0 0 0 2.857142857rem;
+}
+
+.main-navigation ul.nav-menu li .sub-menu li{
+	margin: 0 2.857142857rem 0 0;
+}
+
+
+
+
+
+.main-navigation {
+	text-align: right;
+}
+.main-navigation ul.toggled-on {
+	margin-top: 2rem;
+	padding-top: 1.714285714rem;
+	border-top: 1px solid #ededed;
+	padding-bottom: 1.714285714rem;
+	border-bottom: 1px solid #ededed;
+}
+.main-navigation ul.toggled-on, .main-navigation ul.toggled-on li, .main-navigation ul.toggled-on li .sub-menu li{
+	margin-left: 0;
+	width:100%;
+	text-align: left;
+}
+.main-navigation ul.toggled-on li .sub-menu li {
+	margin-left: 0;
+}
+
+.main-navigation ul.toggled-on li, .main-navigation ul.toggled-on li .sub-menu li{
+
+}
+
+
+
+
+
+
+.site-header hgroup, .main-navigation{
+
+
+}
+.site-header {
+	position: relative;
+}
+.site-header hgroup{
+	float: left;
+	position: absolute;
+	top:1.714285714rem;
+	left:0;
+	width: 217px;
+}
+
+
+
+
+
+body.template-front-page article header.entry-header {
+	display:none;
+}
+body.template-front-page .site-content {
+	margin: 0 0 0 0;
+}
+
+body.template-front-page article .entry-content {
+	width: 1040px;
+	margin-left: -40px;
+}
+
+body.template-front-page .site, body.template-front-page div.site-content, body.template-front-page article.page , body.template-front-page article.page div.entry-content  {
+	overflow-x: visible;
+	overflow-y: visible;
+}
+
+body.template-front-page .entry-content img {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+}
+
+
+
+body.custom-font-enabled{
+
+}
+*/
+/*-----------------------------------------------------------------------------------*/
+/*  *Shortcode Styles
+/*-----------------------------------------------------------------------------------*/
+/* #Column Shortcodes
+================================================== */
+.one_half {
+  width: 48%; }
+
+.one_third {
+  width: 30.66%; }
+
+.two_third {
+  width: 65.33%; }
+
+.one_fourth {
+  width: 22%; }
+
+.three_fourth {
+  width: 74%; }
+
+.one_fifth {
+  width: 16.8%; }
+
+.two_fifth {
+  width: 37.6%; }
+
+.three_fifth {
+  width: 58.4%; }
+
+.four_fifth {
+  width: 79.2%; }
+
+.one_sixth {
+  width: 13.33%; }
+
+.five_sixth {
+  width: 82.67%; }
+
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+  margin-right: 4%;
+  margin-bottom: 25px;
+  float: left; }
+
+#top_panel .one_half,
+#top_panel .one_third,
+#top_panel .two_third,
+#top_panel .three_fourth,
+#top_panel .one_fourth,
+#top_panel .one_fifth,
+#top_panel .two_fifth,
+#top_panel .three_fifth,
+#top_panel .four_fifth,
+#top_panel .one_sixth,
+#top_panel .five_sixth {
+  margin-right: 3%;
+  margin-bottom: 0; }
+
+.column-last {
+  margin-right: 0 !important;
+  clear: right; }
+
+@media only screen and (max-width: 767px) {
+  .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+    width: 100%; } }

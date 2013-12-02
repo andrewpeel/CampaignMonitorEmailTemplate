@@ -1,0 +1,78 @@
+/* Panorama Height */
+.home .panorama {
+	width:100%;
+	height:200px;
+}
+@media screen and (min-width: 992px) {
+	.home .panorama {
+		height:600px;
+	}
+}
+@media screen and (max-width: 992px) {
+	.home .panorama {
+		height:400px;
+	}
+}
+@media screen and (max-width: 640px) {
+	.home .panorama {
+		height:200px;
+	}
+}
+
+
+/* Title */
+.home .panorama-title {
+	position:absolute; 
+	z-index:1; 
+	width:100%;
+	background-color:rgba(0,154,255,0.7); 
+}
+.home .panorama-title-h1  {
+	margin: 0 auto 0;    
+	line-height:1em; 
+	color:rgba(255,255,255,0.6); 
+}
+
+.home .panorama-title-hover {
+	background-color:rgba(0,154,255,0.9); 
+	cursor: pointer;
+}
+.home .panorama-title-h1-hover  {
+	color:rgba(255,255,255,0.9); 
+}
+
+
+@media only screen and (min-width: 992px) {
+	.home .panorama-title h1  {
+		width: 940px;
+		font-size:6em; 
+		padding: 1.25rem 0 1.35rem 0;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.home .panorama-title h1 {
+		width: 940px;
+		font-size:3.5em; 
+		padding: 1rem 0 1.05rem 0; 
+	}
+}
+@media only screen and (max-width: 768px) {
+	.home .panorama-title h1 {
+		width: 600px;
+		font-size:3.5em; 
+		padding: 1rem 0 1.05rem 0; 
+	}
+}
+@media only screen and (max-width: 640px) {
+	.home .panorama-title h1 {
+		width: 290px;
+		font-size:2em;
+		padding: 0.5rem 0 .55rem 0; 
+	}
+}
+
+
+
+
+
+

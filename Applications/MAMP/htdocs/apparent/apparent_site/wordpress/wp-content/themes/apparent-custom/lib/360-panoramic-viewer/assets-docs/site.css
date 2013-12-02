@@ -1,0 +1,29 @@
+@font-face{font-family:'Megalopolis';src:url('fonts/megalopolisextra-webfont.eot');src:local('?'), url('fonts/megalopolisextra-webfont.woff') format('woff'), url('fonts/megalopolisextra-webfont.ttf') format('truetype'), url('fonts/megalopolisextra-webfont.svg#webfontgFqFRjPN') format('svg');font-weight:normal;font-style:normal}
+h1,h2,h3{font-family:'Megalopolis'}
+
+body{background:#fff url(images/grid1.png) repeat center top;color:#000}
+#wrapper-top{padding-top:72px;padding-bottom:72px;background:#2e363a url(images/grid2.png) repeat center top;color:#bbb}
+#wrapper-top h1{margin-top:24px;font-size:56px;line-height:72px;margin-bottom:0;color:#45D1FF;text-transform:lowercase}
+#wrapper-top header h1 strong{color:#fff;font-weight:normal}
+#version{height:120px;}
+#version .wrapper{float:right;width:120px;height:120px;background:url(images/circle.png) no-repeat 0 0}
+#version span{display:block;width:100%;line-height:120px;text-align:center;color:#666;font-weight:bold;}
+pre { font-size: 90%; border-left: 2px solid #666; margin-left: 9px; padding: 12px 5px 12px 15px; color: #444; background: #eee; white-space: pre-wrap; white-space: -moz-pre-wrap !important; white-space: -pre-wrap; white-space: -o-pre-wrap;  word-wrap: break-word; }
+pre em { color: #6a6; }
+#wrapper-content{padding-top:48px;}
+#wrapper-content h2{color:#333}
+#wrapper-content article,#wrapper-content table,#wrapper-content pre{margin-bottom:24px;}
+footer{padding-top:48px}
+
+/* grids */
+#grids section{height:72px;margin-bottom:24px;background-color:#555;background-color:rgba(0,0,0,0.5);color:#fff}
+
+/* mobile */
+@media handheld, only screen and (max-width:767px){
+	#wrapper-top{padding-top:24px;padding-bottom:48px}
+	#wrapper-content{padding-top:48px}
+	pre{margin:0}
+	footer{padding-top:24px}footer .last{text-align:left}
+	.grid_4,.grid_5,.grid_6,.grid_7,.grid_8{width:100%}
+	#version{display:none}
+}

@@ -1,0 +1,2 @@
+[16-Aug-2013 08:09:22 Antarctica/Macquarie] PHP Fatal error:  Call to undefined function get_header() in /home/apparent/public_html/wordpress/wp-content/themes/apparent/index.php on line 1
+[15-Nov-2013 23:57:48 Antarctica/Macquarie] PHP Fatal error:  Call to undefined function get_header() in /home/apparent/public_html/wordpress/wp-content/themes/apparent/index.php on line 1
